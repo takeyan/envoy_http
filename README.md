@@ -4,7 +4,7 @@
 バックエンドサービスのコンテナイメージのIPアドレスを確認して指定する（docker inspectで確認）。
 例：
 
-'''
+```
             "Networks": {
                 "bridge": {
                     "IPAMConfig": null,
@@ -22,4 +22,4 @@
                     "DriverOpts": null
                 }
             }
-'''
+```
